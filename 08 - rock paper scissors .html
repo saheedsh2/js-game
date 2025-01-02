@@ -20,6 +20,11 @@ playGame('Paper');
    playGame('Scissors');
 
 ">Scissors</button>
+<button onclick="
+score.wins = 0;
+score.losses = 0;
+score.ties = 0;
+">Reset Score</button>
 
 
 
@@ -83,7 +88,8 @@ playGame('Paper');
         }
 
 
-        alert(`You Chose ${playerMove}, Computer chose ${computerMove}, ${result}`)
+        alert(`You Chose ${playerMove}, Computer chose ${computerMove}, ${result}
+Wins: ${score.wins}, Losses: ${score.losses}, Ties: ${score.ties}`)
 
     
 
