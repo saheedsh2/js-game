@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 6d</title>
+</head>
+<body>
+
+
+    <input type="number" id="ageInput" placeholder="Enter Your Age"/>
+
+
+    <button onclick="
+    const isHoliday = false;
+    let discount = '';
+    const age = document.getElementById('ageInput').value;
+    if(!isHoliday){
+        if(age <= 6 && age >= 65){
+            discount = 'You have a Discount'
+        }
+    } else if(isHoliday){
+        discount = 'No Discounts';
+    }
+    
+    console.log(discount);
+    
+    
+    
+    ">Submit</button>
+
+
+
+    <script>
+        
+
+ 
+
+
+
+
+    </script>
+    
+</body>
+</html>

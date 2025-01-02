@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Temperature</title>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+        function convertToCelcius(fahrenheit){
+
+        return (fahrenheit - 32) * 5/9;
+
+
+        }
+
+
+        function convertToFahrenheit(celcius){
+
+        return (celcius * 9/5) + 32;
+
+
+
+
+
+        }
+
+
+        function convertTemperature(degrees, unit){
+            let fahrenheit = '';
+            let celcius = '';
+            if(unit === 'C'){
+                console.log(convertToFahrenheit(celcius))
+            } else if(unit === 'F'){
+                console.log(convertToCelcius(fahrenheit));
+            }
+
+
+
+        }
+
+
+        convertTemperature(167, 'C');
+
+
+
+
+    </script>
+    
+</body>
+</html>

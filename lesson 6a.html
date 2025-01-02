@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 6</title>
+</head>
+<body>
+    
+
+
+
+
+
+    <script>
+        const d = new Date();
+        const hour = d.getHours();
+        let name = 'Saheed';
+        let greeting = '';
+        if(hour >= 6 && hour <=12){
+            greeting = `Good Morning ${name}`;
+        } else if(hour >= 13 && hour <= 17){
+            greeting = `Good Afternoon ${name}`; 
+        } else greeting = `Good Evening ${name}`;
+
+        console.log(greeting)
+
+
+      
+        
+    </script>
+</body>
+</html>
